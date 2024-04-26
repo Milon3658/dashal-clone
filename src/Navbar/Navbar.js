@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="overscroll-none">
       <div className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
@@ -38,13 +38,13 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               {/* <li>
-                <a>Homepage</a>
+                <Link to="">Homepage</a>
               </li>
               <li>
-                <a>Portfolio</a>
+                <Link to="">Portfolio</a>
               </li>
               <li>
-                <a>About</a>
+                <Link to="">About</a>
               </li> */}
             </ul>
           </div>
