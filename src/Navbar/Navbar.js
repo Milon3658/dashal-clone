@@ -6,10 +6,11 @@ import {
 } from "react-icons/md";
 import { IoPersonCircleOutline, IoSearch } from "react-icons/io5";
 import { Link } from "react-router-dom";
+import logo from "../assets/logo.png";
 
 const Navbar = () => {
   return (
-    <div className="overscroll-none">
+    <div className="shadow-lg">
       <div className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
@@ -50,13 +51,13 @@ const Navbar = () => {
           </div>
           <button className="btn btn-ghost btn-circle">
             <Link to="favorite">
-              <MdLocationOn className="h-5 w-5"/>
+              <MdLocationOn className="h-5 w-5" />
             </Link>
           </button>
         </div>
         <div className="navbar-center">
-          <Link to="/" className="btn btn-ghost text-md lg:text-xl">
-            daisyUI
+          <Link to="/">
+            <img className="h-10 w-14 lg:h-14 lg:w-20 me-5" src={logo} alt="" />
           </Link>
         </div>
         <div className="navbar-end">

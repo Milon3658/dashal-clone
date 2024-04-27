@@ -13,7 +13,6 @@ const HomePage = () => {
         <h1 className=" mx-5 text-red-500 font-semibold">About Us</h1>
         <h1 className=" mx-5">স্ব By Deshal</h1>
       </div>
-
       <MyCarouselSlider></MyCarouselSlider>
     </div>
   );
