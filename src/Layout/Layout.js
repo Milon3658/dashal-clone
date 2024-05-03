@@ -44,10 +44,7 @@ const Layout = () => {
         </div>
       </div>
 
-
-
-<MyModal></MyModal>
-
+      <MyModal></MyModal>
 
       <Footer></Footer>
     </div>
