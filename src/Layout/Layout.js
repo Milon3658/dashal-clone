@@ -1,7 +1,8 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
+import logo from "../assets/logo.png";
 
 const Layout = () => {
   return (
@@ -12,21 +13,31 @@ const Layout = () => {
         <input id="my-drawer" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content">
           <Outlet></Outlet>
-          
         </div>
-        <div className="drawer-side">
+        <div className="drawer-side cursor-pointer">
           <label
             htmlFor="my-drawer"
             aria-label="close sidebar"
             className="drawer-overlay"
           ></label>
           <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
-            {/* Sidebar content here */}
             <li>
-              <a>Sidebar Item 1</a>
+              <Link to="/">
+                <img
+                  className="h-10 w-14 lg:h-14 lg:w-20 me-5"
+                  src={logo}
+                  alt=""
+                />
+              </Link>
             </li>
             <li>
-              <a>Sidebar Item 2</a>
+              <h1 className=" mx-5">Women</h1>
+              <h1 className=" mx-5">Men</h1>
+              <h1 className=" mx-5">Kid</h1>
+              <h1 className=" mx-5">Accessories</h1>
+              <h1 className=" mx-5">Home Decor</h1>
+              <h1 className=" mx-5 text-red-500 font-semibold">About Us</h1>
+              <h1 className=" mx-5">স্ব By Deshal</h1>
             </li>
           </ul>
         </div>

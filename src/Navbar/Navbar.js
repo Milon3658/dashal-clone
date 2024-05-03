@@ -5,7 +5,7 @@ import {
   MdLocationOn,
 } from "react-icons/md";
 import { IoPersonCircleOutline, IoSearch } from "react-icons/io5";
-import { Link, Outlet } from "react-router-dom";
+import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 
 const Navbar = () => {
@@ -13,26 +13,26 @@ const Navbar = () => {
     <div className="shadow-lg">
       <div className="navbar bg-base-100">
         <div className="navbar-start">
-          <label htmlFor="my-drawer" >
-          <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h16M4 18h7"
-                />
-              </svg>
+          <label htmlFor="my-drawer" className=" lg:mx-4 mx-0">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-7 w-7 cursor-pointer"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h16M4 18h7"
+              />
+            </svg>
           </label>
 
           <button className="btn btn-ghost btn-circle">
             <Link to="favorite">
-              <MdLocationOn className="h-5 w-5" />
+              <MdLocationOn className="h-7 w-7" />
             </Link>
           </button>
         </div>
@@ -43,21 +43,21 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           <button className="btn btn-ghost btn-circle">
-            <IoSearch className="h-5 w-5" />
+            <IoSearch className="h-7 w-7" />
           </button>
           <button className="btn btn-ghost btn-circle">
             <Link to="favorite">
-              <MdFavoriteBorder className="h-5 w-5" />
+              <MdFavoriteBorder className="h-7 w-7" />
             </Link>
           </button>
           <button className="btn btn-ghost btn-circle">
             <Link to="/cart">
-              <MdOutlineShoppingCart className="h-5 w-5" />
+              <MdOutlineShoppingCart className="h-7 w-7" />
             </Link>
           </button>
           <button className="btn btn-ghost btn-circle">
             <Link to="/profile">
-              <IoPersonCircleOutline className="h-5 w-5" />
+              <IoPersonCircleOutline className="h-7 w-7" />
             </Link>
           </button>
         </div>
