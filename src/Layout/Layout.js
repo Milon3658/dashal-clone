@@ -3,6 +3,7 @@ import { Link, Outlet } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import logo from "../assets/logo.png";
+import MyModal from "../Components/HomePage/MyModal";
 
 const Layout = () => {
   return (
@@ -42,6 +43,11 @@ const Layout = () => {
           </ul>
         </div>
       </div>
+
+
+
+<MyModal></MyModal>
+
 
       <Footer></Footer>
     </div>

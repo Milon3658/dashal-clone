@@ -42,7 +42,10 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="navbar-end">
-          <button className="btn btn-ghost btn-circle">
+          <button
+            onClick={() => document.getElementById("my_modal_3").showModal()}
+            className="btn btn-ghost btn-circle"
+          >
             <IoSearch className="h-7 w-7" />
           </button>
           <button className="btn btn-ghost btn-circle">
