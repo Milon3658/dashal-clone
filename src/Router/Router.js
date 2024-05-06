@@ -5,6 +5,7 @@ import Locations from "../Pages/Locations/Locations";
 import Favorite from "../Pages/Favorite/Favorite";
 import Cart from "../Pages/Cart/Cart";
 import Profile from "../Pages/Profile/Profile";
+import Category from "../Pages/Category/Category";
 
 const router = createBrowserRouter([
     {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
             {
                 path:"/profile",
                 element:<Profile></Profile>
+            },
+            {
+                path:"/category",
+                element:<Category></Category>
             },
             {
                 path:"*",

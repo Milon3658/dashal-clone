@@ -4,12 +4,13 @@ import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import logo from "../assets/logo.png";
 import MyModal from "../Components/HomePage/MyModal";
+import CategoryList from "../Components/CategoryList";
 
 const Layout = () => {
   return (
     <div>
       <Navbar></Navbar>
-
+      <CategoryList></CategoryList>
       <div className="drawer">
         <input id="my-drawer" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content">
