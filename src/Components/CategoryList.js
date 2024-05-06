@@ -10,24 +10,36 @@ const CategoryList = () => {
             Women
           </h1>
         </Link>
-        <h1 className=" mx-5 hover:text-xl hover:font-bold category-trans">
-          Men
-        </h1>
-        <h1 className=" mx-5 hover:text-xl hover:font-bold category-trans">
-          Kid
-        </h1>
-        <h1 className=" mx-5 hover:text-xl hover:font-bold category-trans">
-          Accessories
-        </h1>
-        <h1 className=" mx-5 hover:text-xl hover:font-bold category-trans">
-          Home Decor
-        </h1>
-        <h1 className=" mx-5 text-red-500 font-semiboldv hover:text-xl hover:font-bold category-trans">
-          About Us
-        </h1>
-        <h1 className=" mx-5 hover:text-xl hover:font-bold category-trans">
-          স্ব By Deshal
-        </h1>
+        <Link to="/category">
+          <h1 className=" mx-5 hover:text-xl hover:font-bold category-trans">
+            Men
+          </h1>
+        </Link>
+        <Link to="/category">
+          <h1 className=" mx-5 hover:text-xl hover:font-bold category-trans">
+            Kid
+          </h1>
+        </Link>
+        <Link to="/category">
+          <h1 className=" mx-5 hover:text-xl hover:font-bold category-trans">
+            Accessories
+          </h1>
+        </Link>
+        <Link to="/category">
+          <h1 className=" mx-5 hover:text-xl hover:font-bold category-trans">
+            Home Decor
+          </h1>
+        </Link>
+        <Link to="/category">
+          <h1 className=" mx-5 text-red-500 font-semiboldv hover:text-xl hover:font-bold category-trans">
+            About Us
+          </h1>
+        </Link>
+        <Link to="/category">
+          <h1 className=" mx-5 hover:text-xl hover:font-bold category-trans">
+            স্ব By Deshal
+          </h1>
+        </Link>
       </div>
     </div>
   );
