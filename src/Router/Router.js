@@ -6,6 +6,7 @@ import Favorite from "../Pages/Favorite/Favorite";
 import Cart from "../Pages/Cart/Cart";
 import Profile from "../Pages/Profile/Profile";
 import Category from "../Pages/Category/Category";
+import AllProducts from "../Pages/AllProducts/AllProducts";
 
 const router = createBrowserRouter([
     {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
             {
                 path:"/category",
                 element:<Category></Category>
+            },
+            {
+                path:"/allproducts",
+                element:<AllProducts></AllProducts>
             },
             {
                 path:"*",
