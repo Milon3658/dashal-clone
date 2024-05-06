@@ -1,9 +1,10 @@
 import React from "react";
 import { MdOutlineShoppingBag } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const SingleProduct = ({item}) => {
   return (
-    <div>
+    <Link to="/productdetails">
       <div className="cursor-pointer border">
         <img
           src={item.img}
@@ -18,7 +19,7 @@ const SingleProduct = ({item}) => {
           <MdOutlineShoppingBag className="text-3xl hover:text-red-500" />
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 
