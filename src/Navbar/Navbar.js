@@ -49,14 +49,14 @@ const Navbar = () => {
             <IoSearch className="h-7 w-7" />
           </button>
           <button className="btn btn-ghost btn-circle">
-            <Link to="favorite">
+            <Link to="/favorite">
               <MdFavoriteBorder className="h-7 w-7" />
             </Link>
           </button>
           <button className="btn btn-ghost btn-circle">
-            <Link to="/cart">
+            <label htmlFor="my-drawer-4" className="drawer-button">
               <MdOutlineShoppingCart className="h-7 w-7" />
-            </Link>
+            </label>
           </button>
           <button className="btn btn-ghost btn-circle">
             <Link to="/signup">

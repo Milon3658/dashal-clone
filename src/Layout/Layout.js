@@ -5,12 +5,14 @@ import Footer from "../Footer/Footer";
 import logo from "../assets/logo.png";
 import MyModal from "../Components/HomePage/MyModal";
 import CategoryList from "../Components/CategoryList";
+import SecondDrawer from "../Components/HomePage/SecondDrawer";
 
 const Layout = () => {
   return (
     <div>
       <Navbar></Navbar>
       <CategoryList></CategoryList>
+      {/* First Drawer */}
       <div className="drawer">
         <input id="my-drawer" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content">
@@ -44,9 +46,8 @@ const Layout = () => {
           </ul>
         </div>
       </div>
-
+      <SecondDrawer></SecondDrawer>
       <MyModal></MyModal>
-
       <Footer></Footer>
     </div>
   );
