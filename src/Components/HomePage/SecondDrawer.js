@@ -1,6 +1,7 @@
 import React from "react";
 import { IoMdCart } from "react-icons/io";
 import { HiShoppingBag } from "react-icons/hi2";
+import { Link } from "react-router-dom";
 
 const SecondDrawer = () => {
   const thumb =
@@ -23,7 +24,7 @@ const SecondDrawer = () => {
                 <h1 className="font-bold text-lg flex justify-center uppercase mb-5">
                   Your shopping bag
                 </h1>
-                <div className="flex flex-row justify-between">
+                <div className="flex flex-row justify-between items-center">
                   <div className="flex flex-row items-center">
                     <img
                       src={thumb}
@@ -32,7 +33,9 @@ const SecondDrawer = () => {
                     />
                     <span className=" text-[16px] ms-2">
                       <p className=" mb-1">110955</p>
-                      <p className=" mb-1">Sharee</p>
+                      <p className=" mb-1 cursor-pointer hover:text-red-700">
+                        Sharee
+                      </p>
                       <p className=" mb-1">SIZE : N/A</p>
                       <p className=" mb-1">৳ 1674 X 1</p>
                     </span>
@@ -58,9 +61,11 @@ const SecondDrawer = () => {
               <div>
                 <hr className=" bg-slate-300 h-[2px] mb-5 " />
                 <div className="flex flex-row justify-around">
-                  <button className="btn btn-active bg-red-700 hover:bg-red-800 text-white border-none">
-                    <IoMdCart /> VIEW CART
-                  </button>
+                  <Link to="/cart">
+                    <button className="btn btn-active bg-red-700 hover:bg-red-800 text-white border-none">
+                      <IoMdCart /> VIEW CART
+                    </button>
+                  </Link>
                   <button className="btn btn-active bg-red-700 hover:bg-red-800 text-white border-none">
                     <HiShoppingBag /> CHECKOUT NOW
                   </button>
