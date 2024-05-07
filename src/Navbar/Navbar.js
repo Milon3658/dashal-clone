@@ -59,7 +59,7 @@ const Navbar = () => {
             </Link>
           </button>
           <button className="btn btn-ghost btn-circle">
-            <Link to="/profile">
+            <Link to="/signup">
               <IoPersonCircleOutline className="h-7 w-7" />
             </Link>
           </button>
