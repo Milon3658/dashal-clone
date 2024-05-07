@@ -10,6 +10,7 @@ import AllProducts from "../Pages/AllProducts/AllProducts";
 import ProductDetails from "../Pages/ProductDetails/ProductDetails";
 import SignUp from "../Pages/Credential/SignUp";
 import Login from "../Pages/Credential/Login";
+import CheckOut from "../Pages/CheckOut/CheckOut";
 
 const router = createBrowserRouter([
     {
@@ -55,6 +56,10 @@ const router = createBrowserRouter([
             {
                 path:"login",
                 element:<Login></Login>
+            },
+            {
+                path:"/checkout",
+                element:<CheckOut></CheckOut>
             },
             {
                 path:"*",

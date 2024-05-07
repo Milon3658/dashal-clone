@@ -7,11 +7,9 @@ import SecondCarousel from "../../Components/HomePage/SecondCarousel";
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="min-h-screen">
     
       <MyCarouselSlider></MyCarouselSlider>
-
-      {/* Carousel Slider end */}
 
       <CategoryCard></CategoryCard>
 

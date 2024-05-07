@@ -45,7 +45,7 @@ const ProductDetails = () => {
     },
   ];
   return (
-    <div className="mx-0 lg:mx-10 my-3 lg:my-4">
+    <div className="mx-0 lg:mx-10 my-3 lg:my-4 min-h-screen">
       <div className="card lg:card-side bg-base-100 shadow-xl my-5">
         <figure>
           <img

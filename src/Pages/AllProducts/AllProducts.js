@@ -40,8 +40,8 @@ const AllProducts = () => {
     },
   ];
   return (
-    <div>
-      <div className=" py-4 text-5xl flex flex-row justify-center items-center text-red-700 font-bold bg-[#D8DBDF]">
+    <div className="min-h-screen">
+      <div className="py-4 text-5xl flex flex-row justify-center items-center text-red-700 font-bold bg-[#D8DBDF]">
         <h1>
           WOMEN
         </h1>

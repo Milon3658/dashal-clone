@@ -20,7 +20,7 @@ const Category = () => {
     }
   ];
   return (
-    <div className="mx-2 lg:mx-2 flex flex-col lg:flex lg:flex-row lg:justify-between">
+    <div className="mx-2 lg:mx-2 flex flex-col lg:flex lg:flex-row lg:justify-between min-h-screen">
       {data1.map((item) => (
         <CategoryTile item={item}></CategoryTile>
       ))}
