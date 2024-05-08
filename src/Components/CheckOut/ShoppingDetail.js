@@ -71,13 +71,24 @@ const ShoppingDetail = () => {
           />
         </label>
       </div>
-       {/* Delivery Note */}
-       <label className="form-control w-full mb-2">
+      {/* Delivery Note */}
+      <label className="form-control w-full mb-2">
         <div className="label">
           <span className="label-text text-md">Delivery Note</span>
         </div>
-        <textarea className="textarea textarea-bordered" placeholder="Insert your delivery/order note"></textarea>
+        <textarea
+          className="textarea textarea-bordered"
+          placeholder="Insert your delivery/order note"
+        ></textarea>
       </label>
+      <div>
+        <div className="form-control">
+          <label className="label cursor-pointer flex flex-row justify-start">
+            <input type="checkbox" defaultChecked className="checkbox me-2" />
+            <span className="label-text">My shipping address and billing address are the same</span>
+          </label>
+        </div>
+      </div>
     </div>
   );
 };
