@@ -35,13 +35,13 @@ const Layout = () => {
               </Link>
             </li>
             <li>
-              <Link to="/category"><h1 className=" mx-5">Women</h1></Link>
-              <Link to="/category"><h1 className=" mx-5">Men</h1></Link>
-              <Link to="/category"><h1 className=" mx-5">Kid</h1></Link>
-              <Link to="/category"><h1 className=" mx-5">Accessories</h1></Link>
-              <Link to="/category"><h1 className=" mx-5">Home Decor</h1></Link>
-              <Link to="/category"><h1 className=" mx-5 text-red-500 font-semibold">About Us</h1></Link>
-              <Link to="/category"><h1 className=" mx-5">স্ব By Deshal</h1></Link>
+              <Link to="/category"><h1 className="mx-5">Women</h1></Link>
+              <Link to="/category"><h1 className="mx-5">Men</h1></Link>
+              <Link to="/category"><h1 className="mx-5">Kid</h1></Link>
+              <Link to="/category"><h1 className="mx-5">Accessories</h1></Link>
+              <Link to="/category"><h1 className="mx-5">Home Decor</h1></Link>
+              <Link to="/category"><h1 className="mx-5 text-red-500 font-semibold">About Us</h1></Link>
+              <Link to="/category"><h1 className="mx-5">স্ব By Deshal</h1></Link>
             </li>
           </ul>
         </div>
